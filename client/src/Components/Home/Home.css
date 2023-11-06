@@ -1,0 +1,26 @@
+*{
+    color: #fff;
+    /* max-width: 100%; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.section{
+    height:200vh; 
+    background: #000000;;
+}
+.control{
+    background: #2B2B2B;
+}
+.data{
+    background: #0F0F0F;
+    width: 80%;
+    border-radius: 20px;
+}
+.btn{
+    background-color:#007DFE 
+}
+
+select option {
+    color: #fff;
+}

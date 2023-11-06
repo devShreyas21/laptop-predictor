@@ -1,0 +1,50 @@
+*{
+    color: #fff;
+}
+.control{
+    background-color: #2B2B2B;
+    border: none;
+}
+input::placeholder{
+    color: #fff;
+}
+.btn{
+    background-color: #365F7D;
+    color: #fff;
+}
+@media screen and (min-width:600px){
+    .ray{
+        background-color: #365F7D;
+        content: "";
+        line-height: 2px;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .content{
+        background-color: #1C1C1C;
+        border-radius: 20px;
+        width: 30%;
+    }
+    .section{
+        height:100vh; 
+        background: #000000;
+    }
+}
+@media screen and (max-width:600px){
+    .content{
+        background-color: #1C1C1C;
+        border-radius: 20px;
+        width: 70%;
+    }
+    .section{
+        height:100vh; 
+        background: #000000;
+    }
+    .ray{
+        background-color: #365F7D;
+        content: "";
+        line-height: 2px;
+        width: 40%;
+        margin-left: 30%;
+    }
+}
